@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+overflow-x: hidden;
+}
+h1, h2, h3, h4, h5{
+    overflow: hidden;
+}
+.navbar{
+  background: rgb(38,72,134);
+  background: linear-gradient(355deg, rgba(38,72,134,0.9938026235884979) 69%, rgba(88,18,168,1) 88%);
+}
+
+.navbar a{
+  color: white;
+}
+.navbar a:hover{
+  color:#5C2FC2;
+  border-style: ridge;
+  border-radius: 1px;
+  background-color: white;
+}
+
+.bgimg{
+    filter:brightness(65%) ;
+}
+.bgimg h1{
+    text-shadow: 4px 4px 4px #5C2FC2;
+}
+.bgimg .aboutme{
+  color:white;
+  filter:brightness(100%)
+}
+.about{
+  background: rgb(30,61,118);
+  background: linear-gradient(173deg, rgba(30,61,118,0.9938026235884979) 34%, rgba(68,13,132,1) 59%);
+  color:white;
+}
+.vl{
+  border-right: 2px solid white;
+  height: 430px;
+}
+.line{
+  border: 1px solid white;
+}
+.timeline {
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .outer {
+    border-left: 3px solid #1e3d76;
+  }
+  .outer-right{
+    border-right: 3px solid #1e3d76;
+
+  }
+    .card-1 {
+    position: relative;
+    margin: 0 0 20px 10px;
+    padding: 10px;
+    background: #333;
+    color: gray;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  .card-2{
+    position: relative;
+    margin: 20px 20px 0px 0px;
+    padding: 10px;
+    background: #333;
+    color: gray;
+    border-radius: 8px;
+    max-width: 600px;
+    float:right
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .title {
+    color: #1e3d76;
+    position: relative;
+  }
+/* .hoobies{
+  background-color:#1e3d76;
+  ;
+} */
+.piechart{
+  background: rgb(30,61,118);
+background: linear-gradient(173deg, rgba(30,61,118,1) 41%, rgba(68,13,132,1) 64%);
+}
+.piechart .pie{
+  width:400px;
+  height:400px;
+  background-image: conic-gradient(  rgba(164,47,19,1) 41%, rgba(58,57,5,1) 64%, rgba(59,174,57,1) 41%, rgba(43,163,169,1) 64%, rgba(59,174,57,1) 41%, rgba(43,163,169,1) 81%, rgba(59,174,57,1) 41%, rgba(43,163,169,1) 81%);
+  border-radius: 50%;
+}
+  .section1{
+    box-shadow: #1e3d76 6px 4px 6px;
+
+  }
+  .section1:hover{
+    box-shadow: #440d84 5px 8px 15px;
+
+  }
+  .instabutton{
+    color:black;
+    background-color: #1e3d76;
+  }
+  .instabutton:hover{
+    background-color: blue;
+    color:white;
+  }
+  .lightimg{
+    filter: brightness(150%);
+  }
+
+  footer{
+
+    color:white;
+    background: rgb(30,61,118);
+    background: linear-gradient(173deg, rgba(30,61,118,0.9938026235884979) 54%, rgba(68,13,132,1) 88%);
+  
+  }
+  .foot-card{
+    color:white;
+     text-decoration: none;
+     text-align: center;
+     box-shadow: 6px 4px 6px #5C2FC2;
+  }
+  
+  .footer .card:hover{
+    background: #000;;
+  }
